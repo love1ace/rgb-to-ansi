@@ -1,6 +1,6 @@
 {
   "name": "rgb-to-ansi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "rgb to ansi",
   "main": "./index.js",
   "type": "module",
@@ -28,6 +28,7 @@
   },
   "files": [
     "index.js",
+    "index.cjs",
     "README.md",
     "LICENSE"
   ],

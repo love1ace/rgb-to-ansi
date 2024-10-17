@@ -14,10 +14,17 @@ Get **rgb-to-ansi** up and running quickly!
     npm install rgb-to-ansi
     ```
 2. **Use**:
-    ```js
-    import { rgbToAnsi } from 'rgb-to-ansi';
-    console.log(`${rgbToAnsi(255, 87, 51)}Test Message\u001b[0m`);
-    ```
+   ESM:
+   ```js
+   import { rgbToAnsi } from 'rgb-to-ansi';
+   console.log(`${rgbToAnsi(255, 87, 51)}Test Message\u001b[0m`);
+   ```
+   CommonJS:
+   ```js
+   const { rgbToAnsi } = require('rgb-to-ansi');
+   console.log(`${rgbToAnsi(255, 87, 51)}Test Message\u001b[0m`);
+   ```
+    
 
 ## Contributing
 
