@@ -1,8 +1,13 @@
 {
   "name": "rgb-to-ansi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rgb to ansi",
-  "main": "index.js",
+  "main": "./index.js",
+  "type": "module",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
   "license": "MIT",
   "author": "love1ace",
   "repository": {
