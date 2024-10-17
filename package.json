@@ -1,0 +1,32 @@
+{
+  "name": "rgb-to-ansi",
+  "version": "1.0.0",
+  "description": "rgb to ansi",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "love1ace",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/love1ace/rgb-to-ansi.git"
+  },
+  "keywords": [
+    "rgb",
+    "ansi",
+    "converter",
+    "cli",
+    "front-end",
+    "back-end",
+    "love1ace"
+  ],
+  "bugs": {
+    "url": "https://github.com/love1ace/rgb-to-ansi/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/love1ace/rgb-to-ansi#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
